@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional Statement in JS</title>
+</head>
+<body>
+    <script>
+        //Conditional Statement:- JavaScript uses conditional statements to make decisions in code,
+        //running different blocks of code based on whether a condition is true or false
+        //if..condition
+        //age validation for casting !
+        let age=33;
+         if(age>=18){
+            console.log(age + "Valid age for vote casting!");
+        } 
+        //if.......else
+          let myage=23;
+        if(myage<18){
+            console.log("not Valid Age");
+        }
+        else{
+            console.log("valid age");
+        }
+        // switch case------------
+
+        let grade='C';
+        switch(grade){
+            case'A':result="First Divion";
+            break;
+
+            case'B':result="Second Division";
+            break;
+
+            case'C':result="Third Divion";
+            break;
+
+            default:result="Fail";
+        }
+        console.log(result);
+        //i elseif else............
+
+        let marks=75;
+        if(marks>=60){
+            console.log("First Grade");
+        }
+        else if(marks<60 && marks>=40){
+            console.log("Second Grade");
+        }
+        else if(marks<40 && marks>=33){
+            console.log("Third Grade");
+        }
+        else{
+            console.log("Fail");
+        }
+    </script>
+    
+</body>
+</html>
